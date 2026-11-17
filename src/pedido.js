@@ -3,7 +3,7 @@ function calcularTotal(precioUnitario, cantidad, descuentoPorcentaje = 0) {
     throw new Error("Datos inválidos");
   }
   const subtotal = precioUnitario * cantidad;
-  const descuento = subtotal * (descuentoPorcentaje / 10);
+  const descuento = subtotal * (descuentoPorcentaje / 100);
   return Number((subtotal - descuento).toFixed(2));
 }
 
