@@ -16,3 +16,11 @@ test("rechaza cantidades en cero", () => {
   // un pedido de 0 pizzas debe dar error
   assert.throws(() => calcularTotal(10, 0), /inválidos/);
 });
+
+
+// Otros métodos comunes de node:assert
+
+// • assert.ok(valor): Comprueba que el resultado sea verdadero (truthy).
+// • assert.deepStrictEqual(obj1, obj2): Compara objetos o arreglos completos por dentro, no solo su referencia en memoria.
+// • assert.notStrictEqual(actual, esperado): Asegura que dos valores sean diferentes.
+// • assert.rejects(promesa): Similar a throws, pero diseñado para funciones asíncronas (async/await) que deben fallar.
