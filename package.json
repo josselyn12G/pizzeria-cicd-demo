@@ -1,0 +1,8 @@
+{
+  "name": "pizzeria-cicd-demo",
+  "version": "1.0.0",
+  "description": "Demo de CI/CD: cálculo de pedidos de Pizzería Don Luigi",
+  "scripts": {
+    "test": "node --test"
+  }
+}
